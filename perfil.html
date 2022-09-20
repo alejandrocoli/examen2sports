@@ -1,0 +1,112 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <link href="css/framework7.bundle.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    
+    </head>
+
+<section class="login-screen" id="signup" style="z-index: 99999;">
+	<div class="view">
+      <section class="page">
+        <div class="page-content login-screen-content">
+          	<div class="login-screen-title">
+				Sign Up
+			</div>
+          <form>
+            <div class="list">
+              <ul>
+				<li class="item-content item-input">
+                  <div class="item-inner">
+            
+                    <div class="item-input-wrap">
+                      <input type="text" name="name" placeholder="Your name" required>
+                    </div>
+                  </div>
+                </li>
+                <li class="item-content item-input">
+                  <div class="item-inner">
+                 
+                    <div class="item-input-wrap">
+                      <input type="email" name="email" placeholder="Your email" required>
+                    </div>
+                  </div>
+                </li>
+                <li class="item-content item-input">
+                  <div class="item-inner">
+        
+                    <div class="item-input-wrap">
+                      <input type="password" name="password" placeholder="Your password" required>
+                    </div>
+                  </div>
+                </li>
+				<li class="item-content item-input">
+                  <div class="item-inner">
+             
+                    <div class="item-input-wrap">
+                      <input type="password" name="confpassword" placeholder="Your password" required>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="list block">
+              <ul>
+                <li><button type="submit" class="button button-fill" id="btnSignUp">Sign In</button></li>
+              </ul>
+              <div class="block-footer">
+                <p><a class="link login-screen-close" href="#">Cancel</a></p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+</section>
+
+
+
+<section class="login-screen modal-in" id="login">
+	<div class="view">
+      <section class="page">
+        <div class="page-content login-screen-content">
+          	<div class="login-screen-title">
+				Sport Store
+			</div>
+          <form id="form-login">
+            <div class="list">
+              <ul>
+                <li class="item-content item-input">
+                  <div class="item-inner">
+                    
+                    <div class="item-input-wrap">
+                      <input type="email" name="email" placeholder="Your email" required>
+                    </div>
+                  </div>
+                </li>
+                <li class="item-content item-input">
+                  <div class="item-inner">
+                
+                    <div class="item-input-wrap">
+                      <input type="password" name="password" placeholder="Your password" required>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="list block">
+              <ul>
+                <a  href="index.html"><li><button type="submit" class="button button-fill" id="btnLogin">Sign In</button></li></a>
+              </ul>
+              <div class="block-footer">
+                <p>Don't hace an account? <a href="#" class="link login-screen-open" data-login-screen="#signup">Sign Up</a></p>
+                <p><a class="link login-screen-close" href="index.html">or continue as Guest</a></p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section> 
+    </div>
+</section>
